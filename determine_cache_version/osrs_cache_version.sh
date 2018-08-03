@@ -46,7 +46,8 @@ echo "  > OSRS version: $VANILLA_VER"
 
 # Clean up files
 if [ -f "$file" ]; 
-rm $JAV_CONFIG
-rm $VANILLA
+    rm $JAV_CONFIG
+    rm $VANILLA
+fi
 
 echo ">>> Finished."
